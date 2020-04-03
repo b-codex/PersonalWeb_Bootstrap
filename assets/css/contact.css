@@ -1,0 +1,36 @@
+footer{
+    width: 100%;
+    bottom: 3%;
+    position: absolute;
+}
+
+#dev{
+    text-align: center;
+}
+
+#clink{
+    position: absolute;
+    right: 0%;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+label{
+    width: 100%;
+    text-align: center;
+}
+
+.fcontainer{
+    position: relative;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    right: 50%;
+    left: 47%;
+    width: fit-content;
+    padding-top: 10%;
+}
