@@ -4,8 +4,201 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog | Bisrat Fekede</title>
+
+    <link rel="icon" href="https://www.bluntfabrications.com/wp-content/uploads/2019/05/bf_icon_light.png" sizes="32x32">
+
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
+
+    <header class="nav-wrapper" style="height: 100%;">
+        <div class="wrapper">
+            <p class="navbar-brand"> 
+                Bisrat Fekede
+            </p>
+            <nav id="menu">
+
+
+                <ul>
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">overview</a>
+                    </li>
+                    
+        
+                    <li>
+                        <a href="lifestyle.html" class="nav-link">lifestyle</a>
+                    </li>
+                    
+        
+                    <li>
+                        <a href="adventure.html" class="nav-link">adventure</a>
+                    </li>
+                    
+        
+                    <li>
+                        <a href="sport.html" class="nav-link">sport</a>
+                    </li>
+                    
+        
+                    <li>
+                        <a href="luxury.html" class="nav-link">luxury</a>
+                    </li>
+                    
+                    <li class="selected">
+                        <a href="blog.html" class="nav-link">blog</a>
+                    </li>                    
+        
+                    <li>
+                        <a href="about.html" class="nav-link">about</a>
+                    </li>    
+                    
+        
+                    <li>
+                        <a href="contact.html" class="nav-link">contact</a>
+                    </li>   
+        
+                    
+                    
+                </ul>
+                </div>
+                    <div class="foot">
+                        <p id="p">
+                            <a href="https://t.me/PsychoDud" target="_blank">
+                                <img src="assets/icon/telegram.ico" width="10px" alt="">
+                            </a> &nbsp;
+            
+                            <a href="mailto:it.bisrat.fekede@gmail.com" target="_blank">
+                                <img src="assets/icon/gmail.ico" width="10px" alt="">
+                            </a>
+            
+                        </p>  
+                        <div>
+                            <p id="p">
+                                Copyright &copy;
+                                Bisrat Fekede.
+                                All Rights Reserved.
+                            </p>
+                        </div>              
+            
+                    </div>
+            </nav>
+    </header>
+
+    <div class="blogs-container">
+
+        <div class="card">
+            <div class="card-body">
+
+              <h5 class="card-title">Major Changes & New Features In CSS3</h5>
+
+              <p class="card-text">
+                  <p>
+                        <b>Selectors</b>: 
+                        Selectors are used when we want a styling to target a specfic element(s) in the html
+                        element[attribute=value] => to target an element with the exact 'value'
+                        element[attribute$=value] => to target an element whose attribute ends in 'value'
+                        element[attribute*=value] => to target an element whose attribute includes the the text 'value'
+
+                        Pseudo-classes: the ':root' Selector refers the <html> i.e. :root{width:100%;}. Second addition is the
+                        ':last-child' Selector which is used to refer to the last element in a given group of elements i.e. 
+                        div:last-child{font-size:2rem;}. Third addition is the ':target' which is used to draw the users
+                        attention to a span of text when the user clicks on a same-page link i.e. span.notice:target{font-weight:bold;}.
+                        Last one is the ':not' Selector which is used to put a styling on elements that does not have styling
+                        i.e. img:not{width:200px;}.
+                  </p>  
+
+                  <p>
+                        <b>Colors</b>:
+                        RGBA: Is  just like rgb, but the difference is the alpha in rgba. alpha ranges from 0 t0 1, 1 being the 
+                        same as rgb. The use of alpha is to alter the transparency level of the rgb value.
+                        HSL & HSLA: HSL(Hue, Saturation, Lightness). It is used when it is needed to manipulate the Saturation
+                        or brightness of a color by changing all three color values. With HSL you can tweak either just the
+                        saturation or lightness while keeping the same base hue.
+                        hsl() accepts three values: hue in degrees, saturation in percentage and lightness in percentage.
+                        hsla() is the same as rgba.
+                  </p>  
+
+                  <p>
+                        <b>Border-radius</b>: This property lets you create rounded corners without editing the original image.
+                        i.e. img{border-radius:20px;} or img{border-radius: 12px 10px 0 0;}. The second one is used when
+                        we want different borders for each corner.
+                  </p>  
+
+                  <p>
+                        <b>Box Shadows</b>: This property is used to add shadows to a box i.e. box-shadow: 2px 2px 2px solid black;
+                  </p>  
+
+                  <p>
+                      <b>TextShadow</b>: Adds shadows to individual characters in text nodes. i.e. text-shadow: topOffset leftOffset blurRadius color;
+                  </p>  
+
+                  <p>
+                      <b>Linear Gradients</b>: Is used to create colors in specfic directions. i.e. background: linear-gradient(to right, green, yellow, red);
+                  </p>  
+
+                  <p>
+                      <b>Radial Gradients</b>: Same as linear gradient but the colors are winded up in a circle i.e. background: radial-gradient(circle, red, yellow, green);
+                  </p>  
+                  
+                  <p>
+                      <b>Multiple Background Images</b>: There is no need to include an element for every background image. CSS3
+                      provides the ability to add more than one background image to any element. i.e. background-image: url('image1.jpg'), url('image2.jpg');
+                  </p>  
+                  <p>
+
+                    
+                </p>
+
+                <p class="card-text">
+                    <a class="btn btn-info float-right text-white" href="https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1" target="_blank">
+                        Read More...
+                    </a>
+                </p>
+
+                <div class="card-text">
+                    <small>April 2, 2020</small>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="blogs-container">
+
+        <div class="card">
+            <div class="card-body">
+
+                <h5 class="card-title">Coronavirus (COVID-19)</h5>
+
+                <p class="card-text">
+                    As of April 2020, COVID-19 is a world pamdemic and just passing over 1 million confirmed cases in the world.
+                    There is no vaccine to prevent the spread of COVID-19. The best way to protect yourself from this pandemic is 
+                    to wash your hands very frequently & social distancing. <br>
+                    If your think you have the virus, confine yourself to your house until you're sure you dont have it.
+                </p>
+
+                <p class="card-text">
+                    <a class="btn btn-info float-right text-white" href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank">
+                        Read More...
+                    </a>
+                </p>
+
+                <p class="card-text">
+                    <small>April 3, 2020</small>
+                </p>
+            </div>
+            
+        </div>
+
+    </div>
+
     
 </body>
 </html>

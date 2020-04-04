@@ -1,0 +1,18 @@
+body{
+    overflow-x: hidden;
+}
+
+.blogs-container{
+    margin-left: 250px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.blogs-container > .card{
+    width: 98%;
+}
+
+.blogs-container > .card > .card-body{
+    font-family: serif;
+    line-height: 2;
+}

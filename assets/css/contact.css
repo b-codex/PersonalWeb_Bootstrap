@@ -23,14 +23,8 @@ label{
     text-align: center;
 }
 
-.fcontainer{
-    position: relative;
-    margin-left: 0px;
-    margin-right: auto;
+.form-container{
+    margin-left: 250px;
     margin-top: 2%;
     margin-bottom: 2%;
-    right: 50%;
-    left: 47%;
-    width: fit-content;
-    padding-top: 10%;
 }

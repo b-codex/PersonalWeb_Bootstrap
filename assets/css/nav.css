@@ -9,7 +9,7 @@
 
 .foot{ 
     position: absolute;
-    bottom: 0%;
+    bottom: 5%;
     font-family: source-sans-pro, sans-serif;
     color: #b4b4b4;
 }
@@ -63,7 +63,7 @@ ul{
     list-style: disc inside none;
 }
 
-#menu {
+#menu, .nav-wrapper {
     font-size: 15px;
     -webkit-font-smoothing: antialiased;
     /* disable selection */
@@ -73,6 +73,7 @@ ul{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none; 
+    -webkit-user-select: none;
 }
 
 #menu ul {
