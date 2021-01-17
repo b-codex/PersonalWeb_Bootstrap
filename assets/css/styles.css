@@ -6,7 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    overflow-x: hidden !important;
     /* font-family: source-sans-pro, sans-serif; */
 }
 
@@ -60,7 +59,7 @@ header{
 
 .nav-link{
     font-size: 13px !important;
-    color: #b4b4b4d7;
+    color: #b4b4b4;
     line-height: 1.7;
     letter-spacing: .51px;
     font-weight: lighter;
@@ -95,14 +94,11 @@ header{
 }
 
 .logo {
-    margin-left: 1rem !important;
+    margin-top: 1rem;
     color: #ff9933;
     text-decoration: none;
 }
 
-.logo:hover{
-    color: #ff9933;
-}
 
 nav{
     width: 90vw !important;
@@ -179,6 +175,10 @@ label{
 
 /* Blog Page */
 
+body{
+    overflow-x: hidden;
+}
+
 .blogs-container{
     /* margin-left: 250px; */
     margin-top: 2%;
@@ -197,8 +197,13 @@ label{
 
 
 @media (max-width: 768px) {
+    
+    *{
+        overflow-x: hidden !important;
+    }
+
     nav {
-        position: fixed;
+        position: fixed !important;
         top: 0;
         z-index: 1500;
         left: 0;
@@ -209,7 +214,7 @@ label{
 
     .col-lg-1 {
         z-index: 1500;
-        position: fixed;
+        position: fixed !important;
     }
 
     li {
@@ -220,7 +225,7 @@ label{
     }
 
     .col-lg-11 {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .post {
@@ -230,22 +235,22 @@ label{
 
     ul {
         background-color: rgba(0, 0, 0, 0.87);
-        height: 70vh;
-        margin-left: -48px !important;
+        /* height: 70vh; */
+        margin-left: -32px !important;
         width: 100vw;
     }
 
     .row{
-        margin-left: 0 !important;
+        margin-left: .2rem !important;
     }
 
     .container-fluid{
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: .2rem !important;
+        padding-right: .2rem !important;
     }
 
     .navbar{
         margin: 0 !important;
-        padding: .5rem !important;
+        /* padding: .5rem !important; */
     }
 }
